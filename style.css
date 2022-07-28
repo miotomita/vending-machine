@@ -27,6 +27,7 @@ h4,
 a {
   margin: 0;
   font-weight: 400;
+  font-family:'Kaisei Decol', serif;
 }
 
 a,
@@ -41,7 +42,7 @@ a:hover {
   max-width: 40rem;
   margin: 1rem auto;
   text-align: center;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .intro__hed {
@@ -82,4 +83,14 @@ a:hover {
   position: center;
   display: center;
   padding: 0 1em; 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Kaisei+Decol');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho');
+.text_box {
+    font-size:  40px;
+    margin:  20px; 
+}
+.font_jp {
+    font-family: 'Kaisei Decol', serif;
 }
