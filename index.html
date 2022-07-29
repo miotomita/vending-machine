@@ -165,11 +165,14 @@
                     #g-map-final-Artboard_1 .g-pstyle0 {
                         height:19px;
                         color:rgb(51,51,51);
+                        font-size:24px;
+                        font-family: 'Kaisei Decol', serif;
                     }
                     #g-map-final-Artboard_1 .g-pstyle1 {
                         line-height:14px;
                         height:14px;
-                        font-size:12px;
+                        font-size:24px;
+                        font-family: 'Kaisei Decol', serif;
                     }
                     #g-map-final-Artboard_1 .g-pstyle2 {
                         line-height:12px;
@@ -390,15 +393,15 @@
                         </svg>
 
                         <div id="g-ai0-1" class="g-legend g-aiAbs" style="top:3.8%;left:9.4429%;width:19%;">
-                            <p>vending machine</p>
+                            <p style="font-family:'Kaisei Decol', serif; font-size:18px"><b>vending machine</b></p>
                         </div>
                         <div id="g-ai0-2" class="g-legend g-aiAbs" style="top:16.2%;left:9.443%;width:21.4286%;">
-                            <p>convenience store,</p>
-                            <p>24/7 supermarket</p>
+                            <p style="font-family:'Kaisei Decol', serif; font-size:18px;"><b>convenience store,</b></p>
+                            <p style="font-family:'Kaisei Decol', serif; font-size:18px;"><b>24/7 supermarket</b></p>
                         </div>
-                        <div id="g-ai0-3" class="g-marker_text g-aiAbs g-aiPointText" style="top:37.5126%;margin-top:-20.6px;left:69.9166%;width:68px;">
-                            <p class="g-pstyle0">My </p>
-                            <p class="g-pstyle0">House</p>
+                        <div id="g-ai0-3" class="g-inset-map g-aiAbs" style="top:54%;left:3.586%;width:18.4286%;">
+                            <p class="g-pstyle0">東京</p>
+                            <p class="g-pstyle1" style="margin-top:1rem">Tokyo</p>
                         </div>
                         <div id="subway-text-d" class="g-marker_text g-aiAbs g-aiPointText" style="top:50.7926%;margin-top:-11px;left:21.8716%;width:79px;">
                             <p class="g-pstyle0">Subway</p>
@@ -420,6 +423,10 @@
                         </div>
                         <div id="g-ai0-10" class="g-furniture g-aiAbs g-aiPointText" style="top:99.1012%;margin-top:-7.5px;left:90.8354%;width:83px;">
                             <p class="g-pstyle3">​ contributors</p>
+                        </div>
+                        <div id="g-ai0-11" class="g-marker_text g-aiAbs g-aiPointText" style="top:37.5126%;margin-top:-20.6px;left:69.9166%;width:68px;">
+                            <p class="g-pstyle0">My </p>
+                            <p class="g-pstyle0">House</p>
                         </div>
                     </div>
                 </div>
@@ -466,7 +473,7 @@
         d3.selectAll(".path").classed('hidden', true)
         d3.select("#subway-text-d").classed('hidden', true)
         d3.select("#subway-text-m").classed('hidden', true)
-        d3.select("#g-ai0-3").classed('hidden', true)
+        d3.select("#g-ai0-11").classed('hidden', true)
         
         //code for step 0: show the entire map w/o path
         d3.select("#step-zero").on('stepin', function(e){
