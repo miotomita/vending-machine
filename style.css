@@ -71,7 +71,7 @@ a:hover {
 }
 
 .plot-holder {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   position: center;
   display: center; 
   max-width: 1200;
@@ -80,6 +80,7 @@ a:hover {
 }
 
 .plot-holder p {
+  margin-bottom: 5rem;
   position: center;
   display: center;
   padding: 0 1em; 
