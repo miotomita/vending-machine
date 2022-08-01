@@ -626,7 +626,7 @@
             .setup({
                 step: "#scrolly .scrolly-overlay .step",
                 offset: 0.75,
-                debug: False
+                debug: false
             })
             .onStepEnter(function({ element, index, direction}) {
                 const event = new CustomEvent('stepin', { detail: { direction: direction } })
