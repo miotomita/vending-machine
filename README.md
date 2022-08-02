@@ -12,5 +12,5 @@ This is a repository for my mapping project at [Lede 2022](https://ledeprogram.c
 -Code: [plastic_waste.ipynb](https://github.com/miotomita/vending-machine/blob/main/plastic_waste.ipynb)
 
 
-# Questions, Feedbacks (and more info on getting aroung in Tokyo!) 
+# Questions, Feedbacks (and more info on getting around in Tokyo!) 
 Contact Mio Tomita at mio.tomita@nex.nikkei.com
